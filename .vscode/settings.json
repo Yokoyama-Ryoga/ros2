@@ -1,0 +1,8 @@
+{
+  "python.defaultInterpreterPath": "/Users/yokoyama/Development/ros2/.pixi/envs/default/bin/python",
+  "python.analysis.extraPaths": [
+    "/Users/yokoyama/Development/ros2/.pixi/envs/default/lib/python3.11/site-packages"
+  ],
+  "python-envs.defaultEnvManager": "ms-python.python:system",
+  "python-envs.pythonProjects": []
+}

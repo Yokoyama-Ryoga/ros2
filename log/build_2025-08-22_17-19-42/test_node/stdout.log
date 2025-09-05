@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/test_node/test_node.egg-info/PKG-INFO
+writing dependency_links to ../../build/test_node/test_node.egg-info/dependency_links.txt
+writing entry points to ../../build/test_node/test_node.egg-info/entry_points.txt
+writing requirements to ../../build/test_node/test_node.egg-info/requires.txt
+writing top-level names to ../../build/test_node/test_node.egg-info/top_level.txt
+reading manifest file '../../build/test_node/test_node.egg-info/SOURCES.txt'
+writing manifest file '../../build/test_node/test_node.egg-info/SOURCES.txt'
+running build
+running build_py
+copying test_node/test_node.py -> /Users/yokoyama/Development/ros2/build/test_node/build/lib/test_node
+running install
+running install_lib
+copying /Users/yokoyama/Development/ros2/build/test_node/build/lib/test_node/test_node.py -> /Users/yokoyama/Development/ros2/install/test_node/lib/python3.11/site-packages/test_node
+byte-compiling /Users/yokoyama/Development/ros2/install/test_node/lib/python3.11/site-packages/test_node/test_node.py to test_node.cpython-311.pyc
+running install_data
+running install_egg_info
+removing '/Users/yokoyama/Development/ros2/install/test_node/lib/python3.11/site-packages/test_node-0.0.0-py3.11.egg-info' (and everything under it)
+Copying ../../build/test_node/test_node.egg-info to /Users/yokoyama/Development/ros2/install/test_node/lib/python3.11/site-packages/test_node-0.0.0-py3.11.egg-info
+running install_scripts
+Installing test_node script to /Users/yokoyama/Development/ros2/install/test_node/lib/test_node
+writing list of installed files to '/Users/yokoyama/Development/ros2/build/test_node/install.log'

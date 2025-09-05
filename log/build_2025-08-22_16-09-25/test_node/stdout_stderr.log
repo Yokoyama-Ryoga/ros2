@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/test_node/test_node.egg-info
+writing ../../build/test_node/test_node.egg-info/PKG-INFO
+writing dependency_links to ../../build/test_node/test_node.egg-info/dependency_links.txt
+writing entry points to ../../build/test_node/test_node.egg-info/entry_points.txt
+writing requirements to ../../build/test_node/test_node.egg-info/requires.txt
+writing top-level names to ../../build/test_node/test_node.egg-info/top_level.txt
+writing manifest file '../../build/test_node/test_node.egg-info/SOURCES.txt'
+reading manifest file '../../build/test_node/test_node.egg-info/SOURCES.txt'
+writing manifest file '../../build/test_node/test_node.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /Users/yokoyama/Development/ros2/build/test_node/build
+creating /Users/yokoyama/Development/ros2/build/test_node/build/lib
+creating /Users/yokoyama/Development/ros2/build/test_node/build/lib/test_node
+copying test_node/__init__.py -> /Users/yokoyama/Development/ros2/build/test_node/build/lib/test_node
+copying test_node/test_node.py -> /Users/yokoyama/Development/ros2/build/test_node/build/lib/test_node
+running install
+running install_lib
+creating /Users/yokoyama/Development/ros2/install/test_node/lib/python3.11/site-packages/test_node
+copying /Users/yokoyama/Development/ros2/build/test_node/build/lib/test_node/__init__.py -> /Users/yokoyama/Development/ros2/install/test_node/lib/python3.11/site-packages/test_node
+copying /Users/yokoyama/Development/ros2/build/test_node/build/lib/test_node/test_node.py -> /Users/yokoyama/Development/ros2/install/test_node/lib/python3.11/site-packages/test_node
+byte-compiling /Users/yokoyama/Development/ros2/install/test_node/lib/python3.11/site-packages/test_node/__init__.py to __init__.cpython-311.pyc
+byte-compiling /Users/yokoyama/Development/ros2/install/test_node/lib/python3.11/site-packages/test_node/test_node.py to test_node.cpython-311.pyc
+running install_data
+creating /Users/yokoyama/Development/ros2/install/test_node/share/ament_index
+creating /Users/yokoyama/Development/ros2/install/test_node/share/ament_index/resource_index
+creating /Users/yokoyama/Development/ros2/install/test_node/share/ament_index/resource_index/packages
+copying resource/test_node -> /Users/yokoyama/Development/ros2/install/test_node/share/ament_index/resource_index/packages
+copying package.xml -> /Users/yokoyama/Development/ros2/install/test_node/share/test_node
+running install_egg_info
+Copying ../../build/test_node/test_node.egg-info to /Users/yokoyama/Development/ros2/install/test_node/lib/python3.11/site-packages/test_node-0.0.0-py3.11.egg-info
+running install_scripts
+Installing test_node script to /Users/yokoyama/Development/ros2/install/test_node/lib/test_node
+writing list of installed files to '/Users/yokoyama/Development/ros2/build/test_node/install.log'

@@ -1,0 +1,37 @@
+[0.369s] Invoking command in '/Users/yokoyama/Development/ros2/src/test_node': CONDA_ENV_SHLVL_2_PIXI_PROMPT=(ros2) CONDA_ENV_SHLVL_3_PIXI_PROMPT=(ros2) PIXI_PROMPT=(ros2) PYTHONPATH=/Users/yokoyama/Development/ros2/build/test_node/prefix_override:/Users/yokoyama/Development/ros2/.pixi/envs/default/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/yokoyama/Development/ros2/install/test_node/lib/python3.11/site-packages:${PYTHONPATH} SHLVL=3 _=/usr/bin/env /Users/yokoyama/Development/ros2/.pixi/envs/default/bin/python3.11 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_node build --build-base /Users/yokoyama/Development/ros2/build/test_node/build install --record /Users/yokoyama/Development/ros2/build/test_node/install.log --single-version-externally-managed install_data
+[0.450s] running egg_info
+[0.450s] creating ../../build/test_node/test_node.egg-info
+[0.450s] writing ../../build/test_node/test_node.egg-info/PKG-INFO
+[0.450s] writing dependency_links to ../../build/test_node/test_node.egg-info/dependency_links.txt
+[0.450s] writing entry points to ../../build/test_node/test_node.egg-info/entry_points.txt
+[0.450s] writing requirements to ../../build/test_node/test_node.egg-info/requires.txt
+[0.450s] writing top-level names to ../../build/test_node/test_node.egg-info/top_level.txt
+[0.450s] writing manifest file '../../build/test_node/test_node.egg-info/SOURCES.txt'
+[0.455s] reading manifest file '../../build/test_node/test_node.egg-info/SOURCES.txt'
+[0.455s] writing manifest file '../../build/test_node/test_node.egg-info/SOURCES.txt'
+[0.455s] running build
+[0.455s] running build_py
+[0.455s] creating /Users/yokoyama/Development/ros2/build/test_node/build
+[0.455s] creating /Users/yokoyama/Development/ros2/build/test_node/build/lib
+[0.455s] creating /Users/yokoyama/Development/ros2/build/test_node/build/lib/test_node
+[0.455s] copying test_node/__init__.py -> /Users/yokoyama/Development/ros2/build/test_node/build/lib/test_node
+[0.455s] copying test_node/test_node.py -> /Users/yokoyama/Development/ros2/build/test_node/build/lib/test_node
+[0.455s] running install
+[0.456s] running install_lib
+[0.456s] creating /Users/yokoyama/Development/ros2/install/test_node/lib/python3.11/site-packages/test_node
+[0.456s] copying /Users/yokoyama/Development/ros2/build/test_node/build/lib/test_node/__init__.py -> /Users/yokoyama/Development/ros2/install/test_node/lib/python3.11/site-packages/test_node
+[0.456s] copying /Users/yokoyama/Development/ros2/build/test_node/build/lib/test_node/test_node.py -> /Users/yokoyama/Development/ros2/install/test_node/lib/python3.11/site-packages/test_node
+[0.456s] byte-compiling /Users/yokoyama/Development/ros2/install/test_node/lib/python3.11/site-packages/test_node/__init__.py to __init__.cpython-311.pyc
+[0.456s] byte-compiling /Users/yokoyama/Development/ros2/install/test_node/lib/python3.11/site-packages/test_node/test_node.py to test_node.cpython-311.pyc
+[0.456s] running install_data
+[0.457s] creating /Users/yokoyama/Development/ros2/install/test_node/share/ament_index
+[0.457s] creating /Users/yokoyama/Development/ros2/install/test_node/share/ament_index/resource_index
+[0.457s] creating /Users/yokoyama/Development/ros2/install/test_node/share/ament_index/resource_index/packages
+[0.457s] copying resource/test_node -> /Users/yokoyama/Development/ros2/install/test_node/share/ament_index/resource_index/packages
+[0.457s] copying package.xml -> /Users/yokoyama/Development/ros2/install/test_node/share/test_node
+[0.457s] running install_egg_info
+[0.457s] Copying ../../build/test_node/test_node.egg-info to /Users/yokoyama/Development/ros2/install/test_node/lib/python3.11/site-packages/test_node-0.0.0-py3.11.egg-info
+[0.458s] running install_scripts
+[0.469s] Installing test_node script to /Users/yokoyama/Development/ros2/install/test_node/lib/test_node
+[0.469s] writing list of installed files to '/Users/yokoyama/Development/ros2/build/test_node/install.log'
+[0.480s] Invoked command in '/Users/yokoyama/Development/ros2/src/test_node' returned '0': CONDA_ENV_SHLVL_2_PIXI_PROMPT=(ros2) CONDA_ENV_SHLVL_3_PIXI_PROMPT=(ros2) PIXI_PROMPT=(ros2) PYTHONPATH=/Users/yokoyama/Development/ros2/build/test_node/prefix_override:/Users/yokoyama/Development/ros2/.pixi/envs/default/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/yokoyama/Development/ros2/install/test_node/lib/python3.11/site-packages:${PYTHONPATH} SHLVL=3 _=/usr/bin/env /Users/yokoyama/Development/ros2/.pixi/envs/default/bin/python3.11 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_node build --build-base /Users/yokoyama/Development/ros2/build/test_node/build install --record /Users/yokoyama/Development/ros2/build/test_node/install.log --single-version-externally-managed install_data

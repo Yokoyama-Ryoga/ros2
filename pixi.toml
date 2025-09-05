@@ -1,0 +1,28 @@
+[workspace]
+channels = ["robostack-staging", "conda-forge"]
+name = "ros2"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+ros-humble-desktop = ">=0.10.0,<0.11"
+ros-humble-turtlesim = ">=1.4.2,<2"
+colcon-common-extensions = ">=0.3.0,<0.4"
+setuptools = "<=58.2.0"
+ros-humble-ros-ign-gazebo = ">=0.244.20,<0.245"
+ros-humble-joint-state-publisher = ">=2.4.0,<3"
+ros-humble-xacro = ">=2.0.13,<3"
+ros-humble-ros-ign-bridge = ">=0.244.20,<0.245"
+ros-humble-ros-ign-image = ">=0.244.20,<0.245"
+ros-humble-ros-ign-interfaces = ">=0.244.20,<0.245"
+ros-humble-slam-toolbox = ">=2.6.10,<3"
+ros-humble-nav2-bringup = ">=1.1.18,<2"
+ros-humble-navigation2 = ">=1.1.18,<2"
+ollama = ">=0.11.8,<0.12"
+pip = ">=25.2,<26"
+
+[activation]
+
+scripts = ["install/setup.sh"]
